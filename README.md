@@ -8,14 +8,14 @@ Both CPUs and GPUs are required to be specified using a comma-separated list.
 This allows to understand the NUMA effects in a multi-socket system. clinfo and
 cat /proc/cpuinfo allow you to understand the topology of GPUs.
 
---cores              -c        Comma-separated list of CPU cores to use (Default=0)
---gpu_list           -g        Comma-separated list of GPUs to use (Default=0)
---help               -h        Print Help Message
---iterations         -i        Number of Iterations (Default=10)
---pinned             -p        Use Pinned Memory (Default=1|Yes)
---sizes              -s        Number of different CL::Buffer sizes doubling from 256MB (Default=2)
+--cores              -c        Comma-separated list of CPU cores to use (Default=0) <br />
+--gpu_list           -g        Comma-separated list of GPUs to use (Default=0)<br />
+--help               -h        Print Help Message<br />
+--iterations         -i        Number of Iterations (Default=10)<br />
+--pinned             -p        Use Pinned Memory (Default=1|Yes)<br />
+--sizes              -s        Number of different CL::Buffer sizes doubling from 256MB (Default=2)<br />
 
-Examples:
+Examples:<br />
 1. Use default GPU (1st GPU) and CPU core
 ./PCIeBandwidth
 
