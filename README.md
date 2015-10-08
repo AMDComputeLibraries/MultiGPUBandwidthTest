@@ -16,11 +16,11 @@ cat /proc/cpuinfo allow you to understand the topology of GPUs.
 --sizes              -s        Number of different CL::Buffer sizes doubling from 256MB (Default=2)<br />
 
 Examples:<br />
-1. Use default GPU (1st GPU) and CPU core
+Use default GPU (1st GPU) and CPU core<br />
 ./PCIeBandwidth
 
-2. Use GPUs 0 and 1 and CPU cores 0 and 2
+Use GPUs 0 and 1 and CPU cores 0 and 2<br />
 ./PCIeBandwidth -g 0,1 -c 0,2
 
-3. Use GPUs 0-7 and CPU cores 0-3, 8-11
+Use GPUs 0-7 and CPU cores 0-3, 8-11<br />
 ./PCIeBandwidth -g 0,1,2,3,4,5,6,7 -c 0,1,2,3,8,9,11,12
